@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.header {
+  background-color: rgb(25, 1, 1);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+}
+.sitenav-link {
+  padding: 8px 12px;
+  color: #ffffff;
+}
+
+.sitenav-link:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.main {
+}
+.hero {
+  height: 90.7vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/hero-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.hero-content-wrapper {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 100px;
+  margin-bottom: 20px;
+  font-family: "Lobster", display;
+}
+.hero-description {
+}
+
+.car-item {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.car-item h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.car-item a {
+  font-size: 30px;
+  color: #f9f3f3;
+  text-decoration: underline;
+}
+.bmw {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-bmw.jpg);
+}
+.toyota {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-toyota.jpg);
+}
+.mersedes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-mers.jpg);
+}
+.tesla {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-tesla.jpg);
+}
+.rols-roys {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-rols.jpg);
+}
+.ferrari {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-ferrari.jpg);
+}
